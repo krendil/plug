@@ -29,7 +29,7 @@ defmodule GleamPlug.MixProject do
   defp deps do
     [
       {:mix_gleam, "~> 0.1"},
-      {:gleam_http, "~> 1.3"},
+      {:gleam_http, "~> 2.0"},
       {:plug, "~> 1.10"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
